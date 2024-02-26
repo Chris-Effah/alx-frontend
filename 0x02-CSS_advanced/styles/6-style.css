@@ -1,4 +1,4 @@
-/* Custom properties in root elements to use css variables */
+/* Custom properties in root elements to use font-weight css variables */
 
 html {
     scroll-behavior: smooth;
@@ -31,7 +31,7 @@ html {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
-    font-weight: var(font-weight-regular);
+    font-weight: var(--font-weight-regular);
   }
 
   h1,
@@ -42,9 +42,7 @@ html {
   h6 {
     font-family: var(--font-family-title);
     font-weight: var(font-weight-bold);
-
   }
-  
   
   a {
     color: var(--text-color);
