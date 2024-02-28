@@ -554,7 +554,7 @@ html {
    .footer-copyright {
     margin: 0;
     font-size: var(--font-size-snall);
-    color: var(--text-color)
+    color: var(--text-color);
    }
 
    .footer ul {
